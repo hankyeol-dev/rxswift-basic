@@ -167,6 +167,5 @@ final class AssignmentViewController: UIViewController {
             .share(replay: 1)
             .bind(to: password.rx.isEnabled, validLabel2.rx.isHidden)
             .disposed(by: disposeBag)
-            
     }
 }

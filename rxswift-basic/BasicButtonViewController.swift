@@ -59,8 +59,13 @@ final class BasicButtonViewController: UIViewController {
         secondLabel.textColor = .white
         secondLabel.backgroundColor = .purple
         
-//        buttonHandler()
+        buttonHandler()
         fieldHandler()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        present(OperatorViewController(), animated: true)
     }
 }
 
@@ -95,10 +100,10 @@ extension BasicButtonViewController {
         //            }
         //            .disposed(by: disposebag)
                 
-                button.rx.tap                   // observable에 이벤트를 인지시키고
-                    .map { "버튼 클릭" }          // 바인딩할 observable 값을 지정하고 (스트림)
-                    .bind(to: label.rx.text)   // observer에 바인딩
-                    .disposed(by: disposebag)
+        button.rx.tap                   // observable에 이벤트를 인지시키고
+            .map { "버튼 클릭" }          // 바인딩할 observable 값을 지정하고 (스트림)
+            .bind(to: label.rx.text)   // observer에 바인딩
+            .disposed(by: disposebag)
     }
     
     func fieldHandler() {

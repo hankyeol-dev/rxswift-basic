@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		811BF1982C58DA3800791153 /* AssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BF1972C58DA3800791153 /* AssignmentViewController.swift */; };
+		81C9FB432C59DF120042D83E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9FB422C59DF120042D83E /* UserViewController.swift */; };
+		81C9FB452C5A08840042D83E /* Assignment2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9FB442C5A08840042D83E /* Assignment2ViewController.swift */; };
 		81E623F02C58754E003FE605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E623EF2C58754E003FE605 /* AppDelegate.swift */; };
 		81E623F22C58754E003FE605 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E623F12C58754E003FE605 /* SceneDelegate.swift */; };
 		81E623F42C58754E003FE605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E623F32C58754E003FE605 /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		811BF1972C58DA3800791153 /* AssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentViewController.swift; sourceTree = "<group>"; };
+		81C9FB422C59DF120042D83E /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		81C9FB442C5A08840042D83E /* Assignment2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2ViewController.swift; sourceTree = "<group>"; };
 		81E623EC2C58754E003FE605 /* rxswift-basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rxswift-basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E623EF2C58754E003FE605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81E623F12C58754E003FE605 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				811BF1972C58DA3800791153 /* AssignmentViewController.swift */,
+				81C9FB442C5A08840042D83E /* Assignment2ViewController.swift */,
 			);
 			path = assignments;
 			sourceTree = "<group>";
@@ -73,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				811BF1962C58D9D100791153 /* assignments */,
+				81C9FB422C59DF120042D83E /* UserViewController.swift */,
 				81E6240E2C58C06C003FE605 /* OperatorViewController.swift */,
 				81E6240C2C58AC8B003FE605 /* BasicButtonViewController.swift */,
 				81E623EF2C58754E003FE605 /* AppDelegate.swift */,
@@ -162,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C9FB432C59DF120042D83E /* UserViewController.swift in Sources */,
 				811BF1982C58DA3800791153 /* AssignmentViewController.swift in Sources */,
 				81E6240F2C58C06C003FE605 /* OperatorViewController.swift in Sources */,
 				81E623F42C58754E003FE605 /* ViewController.swift in Sources */,
+				81C9FB452C5A08840042D83E /* Assignment2ViewController.swift in Sources */,
 				81E623F02C58754E003FE605 /* AppDelegate.swift in Sources */,
 				81E623F22C58754E003FE605 /* SceneDelegate.swift in Sources */,
 				81E6240D2C58AC8B003FE605 /* BasicButtonViewController.swift in Sources */,
